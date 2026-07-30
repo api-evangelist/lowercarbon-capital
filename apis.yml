@@ -1,8 +1,12 @@
 aid: lowercarbon-capital
 name: Lowercarbon Capital
-description: 'Lowercarbon Capital is a company surfaced as a portfolio company of foundry-group and added
-  to the API Evangelist network as a stub for enrichment. Sector: venture-capital. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Lowercarbon Capital is a climate-focused venture capital firm that backs companies making
+  real money by slashing CO2 emissions, removing carbon from the atmosphere, and buying the planet more
+  time. The firm invests across energy, transportation, materials, agriculture, carbon removal, and
+  planetary-cooling technologies, on the thesis that markets — not shame or guilt — will fix the climate.
+  It was surfaced as a portfolio-linked company and added to the API Evangelist network. Lowercarbon
+  Capital publishes no public API or developer program; this profile captures the firm''s identity and
+  web properties.'
 url: https://raw.githubusercontent.com/api-evangelist/lowercarbon-capital/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +14,33 @@ x-backed-by:
 - foundry-group
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Venture Capital
+- Climate Tech
+- Carbon Removal
+- Clean Energy
+- Investment
+image: https://lowercarbon.com/wp-content/uploads/lowercarbon-capital.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,21 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/lowercarbon-capital-domain-security.yml
 - type: Website
-  url: https://lowercarboncapital.com
+  url: https://lowercarbon.com
+- type: Portfolio
+  url: https://lowercarbon.com/companies/
+- type: Team
+  url: https://lowercarbon.com/team/
+- type: Blog
+  url: https://lowercarbon.com/climate-scoops/
+- type: Careers
+  url: https://lowercarbon.com/get-off-the-couch/
+- type: Support
+  url: https://lowercarbon.com/drop-us-a-line
+- type: PrivacyPolicy
+  url: https://lowercarbon.com/privacy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/lowercarbon-capital/
